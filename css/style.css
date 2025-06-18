@@ -1,12 +1,33 @@
 h3{
     color:aqua;
             font-size: 50px;
-            background-color:yellow;
+            background-color:black;
 }
 
-p{
+h2{
 
     color:black;
     background-color: yellow;
 
+}
+
+p{  
+  
+    background-color:lightblue;
+    font-size:50px;
+
+}
+
+h5{
+
+    color:blue;
+    font: size 100px;;
+    background-color:brown
+}
+
+h4{
+
+    color:lightyellow;
+    font-size:50px;
+    background-color:black;
 }
