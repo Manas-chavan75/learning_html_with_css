@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+    <style>
+        .container{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-top: 150px;
+            gap: 30px;   
+        }
+        .box{
+            background-color: green;
+            border-radius: 10px;
+            height: 200px;
+            width: 200px;
+            font-weight: 900;
+            font-size:25px;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            transition: transform 1s ease 500ms;
+        }
+        .box1:hover{
+            transform: translate(125px,125px);
+            background-color: green;
+        }
+         .box2:hover{
+            transform: translateX(125px);
+            background-color: green;
+        }
+         .box3:hover{
+            transform: translateY(125px);
+            background-color: green;
+        }
+         .box4:hover{
+            transform: Rotate(360deg);
+            background-color: green;
+         }
+          .box5:hover{
+            transform: skewX(30deg);
+            background-color: green;
+         }
+           .box6:hover{
+            transform: skewY(30deg);
+            background-color: green;
+         }
+         .box7:hover{
+            transform:Scale(2);
+            background-color: green;
+         }
+         .box8:hover{
+            transform:Rotate(40deg) Scale(2) translate(50px);
+            background-color: green;
+         }
+    </style>
+</head>
+<body>
+         <div class="container">
+        <div class="box box1">Translate</div>
+        <div class="box box2">Translate X</div>
+        <div class="box box3">Translate Y</div>
+        <div class="box box4">Rotate</div>
+        <div class="box box5">skewX</div>
+        <div class="box box6">skewY</div>
+        <div class="box box7">Scale</div>
+        <div class="box box8">Rotate Scale Translate </div> 
+</body>
+</html>

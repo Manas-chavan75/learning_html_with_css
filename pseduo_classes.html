@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pseduo_classes</title>
-    <style>
+    <style> 
         .hover_effect:hover{
             color: brown;
             background-color: green;
@@ -14,9 +14,72 @@
         .hover_{
             color: yellow;
         }
+        button{ 
+            background-color: red;
+            font-size: 20px;
+            padding: 20px;
+            color: bisque;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        button:active{
+            background-color: blue;
+            font-size: 30px;
+            padding: 20px;
+            color: green;
+            border-radius: 20px;
+        }
+        a:visited{
+            color: blue;
+        }
+        input:focus{
+            background-color: green;
+        }
+        ul{
+            width: 300px;
+            padding: 10px;
+            list-style-type: none;
+        }
+        li{
+            padding: 10px;
+            border: 2px solid red;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+        li:nth-child(odd){
+            background-color: lightgreen;
+        }
+          li:nth-child(even){
+            background-color: lightcoral;
+        }
+        input[type=Number]{
+            border: 8px solid red;
+            padding: 15px;
+        }
+        input[placeholder]{
+            background-color: goldenrod;
+            color: yellow;
+        }
     </style>
 </head>
 <body>
-    <h1 class="hover_effect"> Hello Welcome Manas</h1>
+    <h1 class="hover_effect"> Hello Manas</h1>
+    <button>click me</button>
+    <a href="https://www.flipkart.com/">click here</a>
+    <input type="text" placeholder="Enter Name">
+      <!-- ul>li*10{items $} shortcutkey -->
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+        <li>item 6</li>
+        <li>item 7</li>
+        <li>item 8</li>
+        <li>item 9</li>
+        <li>item 10</li>
+        <input type="Number" placeholder="Enter Number">
+    </ul>
 </body>
 </html>
