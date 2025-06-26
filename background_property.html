@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            color: orange;
+            text-align: center;
+            font-size: 50px;
+            padding-top: 150px;
+            text-shadow: 4px 3px 8px red;
+        }
+        .linear{
+            height: 350px;
+            border: 2px solid black;
+            border-radius: 30px;
+            background:linear-gradient(to left, black,green);
+            text-shadow: 4px 3px 8px red;
+        }
+        .radial{
+            height: 350px;
+            background:radial-gradient(circle at center, black,green,black);
+            border-radius: 30px;
+            border: 3px solid black;
+            text-shadow: 4px 3px 8px red;
+        }
+        .conic{
+            height: 350px;
+            background:conic-gradient( from 360deg, black, red, green, yellow,blue);
+             border-radius: 30px;
+             border: 3px solid black;
+             text-shadow: 4px 3px 8px black;
+        }
+    </style>
+</head>
+<body>
+     <div class="linear"> Linear Gradient Example</div>
+     <div class="radial">Radial Gradient Example</div>
+      <div class="conic">Conic Gradient Example</div>
+</body>
+</html>
